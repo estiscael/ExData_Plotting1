@@ -3,13 +3,11 @@ plot4 <- function(){
     data<-read.data()
     
    png(file="plot4.png", width = 480, height = 480)
-   
-   par(mfcol= c(2, 2))
-   plot.image1(data)
-   plot.image2(data)
-   plot.image3(data)
-   plot.image4(data)
-   
+       par(mfcol= c(2, 2))
+       plot.image1(data)
+       plot.image2(data)
+       plot.image3(data)
+       plot.image4(data)
     dev.off()
 }
 
